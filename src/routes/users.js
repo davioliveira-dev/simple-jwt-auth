@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 
-const User = require('../models/User');
 const registerUser = require('./registerUser');
 const login = require('./login');
 const getCurrentUser = require('./getCurrentUser');
